@@ -1,0 +1,48 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00 \x00s\x00i\x00f\x00t\x00_\x00f\x00o\x00r\x00_\x00b\x00u\x00n\x00d\x00l\x00e\x00r)
+
+[CMake]
+BuildDirs[$e]=$HOME/projects/sift_for_bundler/build
+CMakeDir=/usr/share/cmake/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/lin/projects/sift_for_bundler/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+Extra Arguments=
+ProjectRootRelative=./
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=新建 原生应用程序 配置
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=sift_for_bundler,sift_for_bundler
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=sift_for_bundler
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Configured from ProjectItem=sift_for_bundler,sift_for_bundler
+Project Target=sift_for_bundler,sift_for_bundler
+Working Directory=file:///home/linbaowei/projects/sift_for_bundler/build/
+isExecutable=false
+
+[MakeBuilder]
+Number Of Jobs=1
