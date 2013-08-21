@@ -1,5 +1,5 @@
 3D Keypoints Detection from a 3D Point Cloud for Real-Time Camera Tracking, IEEJ Transactions on Electronics, Information and Systems, Vol. 133, No. 1, pp.84-90 (2013).
-http://
+https://github.com/linbaowei/3DkeypointsGeneration
 Baowei Lin, Toru Tamaki, Marcos Slomp, Bisser Raytchev, Kazufumi Kaneda, Koji Ichii (Hiroshima University)
 Contact address: lin-bao-wei@hotmail.com
 ===================================================================
