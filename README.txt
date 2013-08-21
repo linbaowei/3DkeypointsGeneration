@@ -105,7 +105,7 @@ Contact address: lin-bao-wei@hotmail.com
 
 	How to compile 3D keypoint generation project
 	-----------------------------------------------------------
-		in order to compile 3D keypoint generation project, at least, OpenCV 2.4.0, SIFTGPU and Boost C++ Libraries 1.47.0 are necessary.
+		in order to compile 3D keypoint generation project, at least, OpenCV 2.4.0, SIFTGPU and Boost C++ Libraries 1.47.0 are necessary. How to use cmake to compile with OpenCV, SIFTGPU and Boost, Please refer to they homepage.
 		bash-4.2$  cd /3DKeypointsGeneration	//depand on where you save our provided files
 		bash-4.2$  mkdir build
 		bash-4.2$  cd build
