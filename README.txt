@@ -116,7 +116,7 @@ Contact address: lin-bao-wei@hotmail.com
 
 
 
-
+	The outputs of 3D keypoints are a set of files named as: output_[threshold1]_[threshold2]. Depand on the values of thresholds, the number of 3D keypoints are different. Please select appropriate thresholds (appropriate 3D keypoints number) for yourself.
 
 	After generating 3D keypoints, you can use anyway you like to find correspondences between 3D keypoints and 2D keypoints (such as ANN, FLANN libs) and then estimate the camera poses (such as RANSAC, or Opencv mehtod).
 
