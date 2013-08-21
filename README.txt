@@ -118,6 +118,8 @@ Contact address: lin-bao-wei@hotmail.com
 
 
 
+	After generating 3D keypoints, you can use anyway you like to find correspondences between 3D keypoints and 2D keypoints (such as ANN, FLANN libs) and then estimate the camera poses (such as RANSAC, or Opencv mehtod).
+
 
 * License: MIT
 --------------------------------------------------------------------
