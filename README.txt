@@ -14,7 +14,7 @@ Contact address: lin-bao-wei@hotmail.com
 -------------------------------------------------------------------
 	Usually, you can get 3D points by using Bundler and PMVS2 directly. However, there are too many 3D points for real time calculation. So we proposed a method to generate 3D keypoints for camera pose estimation. By using our method, we can reduce the number of 3D points which means the 3D keypoints. Also, the distribution of the 3D keypoints is good. Then by describing the 3D keypoints, good correspondences between 3D keypoints and 2D SIFT (we use 128 deminsion SIFT in our code, technically, any other 2D local feature extraction methods are all OK) are estimated. So, camera poses of the 2D images can be easily and fast estimated.
 	
-	If you download the files for the proposed method and uncompress is, there are 3 folders as follows:
+	If you download the files for the proposed method and uncompress it, there are 3 folders as follows:
 		1. folder files_for_Bundler		//files for using Bundler and PMVS2
 		2. folder sift_for_bundler		//files for using SIFTGPU
 		3. folder 3DKeypointsGeneration	//files for 3D keypoints generation
