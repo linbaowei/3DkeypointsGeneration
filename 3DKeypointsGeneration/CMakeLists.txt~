@@ -1,0 +1,6 @@
+project(3DKeypointGeneration)
+cmake_minimum_required(VERSION 2.8)
+INCLUDE_DIRECTORIES(/usr/include/opencv)
+SET(CMAKE_BUILD_TYPE release)
+ADD_EXECUTABLE(3DKeypointGeneration fileoperation.cpp featureoperation.cpp main.cpp rply.c)
+TARGET_LINK_LIBRARIES(3DKeypointGeneration opencv_core opencv_imgproc opencv_calib3d opencv_video opencv_features2d opencv_ml opencv_highgui opencv_objdetect opencv_contrib opencv_legacy siftgpu boost_system boost_program_options boost_filesystem)
