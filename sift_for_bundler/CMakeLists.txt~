@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 2.8)
-project(sift_for_bundler)
-INCLUDE_DIRECTORIES(/usr/include/opencv)
-add_executable(sift_for_bundler main.cpp)
-TARGET_LINK_LIBRARIES(sift_for_bundler opencv_core opencv_imgproc opencv_calib3d opencv_video opencv_features2d opencv_ml opencv_highgui opencv_objdetect opencv_contrib opencv_legacy siftgpu)
