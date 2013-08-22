@@ -40,7 +40,7 @@ Contact address: lin-bao-wei@hotmail.com
 	5. camera positions for 2D training images
 	(3, 4 and 5 could be obtained from Bundler+PMVS2 http://www.cs.cornell.edu/~snavely/bundler/   http://francemapping.free.fr/Portfolio/Prog3D/PMVS2.html)
 		
-	**how to use bundler and PMVS2
+	how to use bundler and PMVS2
 	-----------------------------------------------------------
 		In order to use Bundler+PMVS2 easily, we provide to folders of files as follows:
 			1. folder files_for_Bundler 	//chmod your files to get permission, for example, "chmod 775 ccd_widths.pl ToSiftGPU.sh RunBundler_siftgpu.sh construction_begin_gpu.sh"
