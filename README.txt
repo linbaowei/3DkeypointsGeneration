@@ -35,10 +35,10 @@ Contact address: lin-bao-wei@hotmail.com
 	1. OpenCV 2.4.0
 	2. Boost C++ Libraries 1.47.0
 	3. SIFTGPU
-	3. 3D point cloud
-	4. 2D training images used for 3D reconstruction
-	5. camera positions for 2D training images
-	(3, 4 and 5 could be obtained from Bundler+PMVS2 http://www.cs.cornell.edu/~snavely/bundler/   http://francemapping.free.fr/Portfolio/Prog3D/PMVS2.html)
+	4. 3D point cloud
+	5. 2D training images used for 3D reconstruction
+	6. camera positions for 2D training images
+	(4, 5 and 6 could be obtained from Bundler+PMVS2 http://www.cs.cornell.edu/~snavely/bundler/   http://francemapping.free.fr/Portfolio/Prog3D/PMVS2.html)
 		
 	how to use bundler and PMVS2
 	-----------------------------------------------------------
