@@ -42,7 +42,7 @@ Contact address: lin-bao-wei@hotmail.com
 		
 	how to use bundler and PMVS2
 	-----------------------------------------------------------
-		In order to use Bundler+PMVS2 easily, we provide to folders of files as follows:
+		In order to use Bundler+PMVS2 easily, we provide two folders of files as follows:
 			1. folder files_for_Bundler 	//chmod your files to get permission, for example, "chmod 775 ccd_widths.pl ToSiftGPU.sh RunBundler_siftgpu.sh construction_begin_gpu.sh"
 				ccd_widths.pl			//save your camera ccd width information (you can find such information from your camera's user instruction)
 				sift_for_bundler		//extract sift features by using SIFTGPU, see next "folder sift_for_bundler"
